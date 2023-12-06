@@ -1,0 +1,99 @@
+body{
+  background-color: bisque;
+  color:black;
+  font-size:20px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type="text"], select, label{
+  width:400px;
+  height:50px;
+  padding:12px;
+  border:2px solid lightcyan;
+  border-radius: 2px;
+  box-sizing:border-box;
+  margin-top:5px;
+  margin:10px;
+  margin-left:12px;
+  padding-left: 12px;
+  
+
+}
+.touch{
+  width:700px;
+  height: 700px;
+  background-color: antiquewhite;
+  color:black;
+  font-weight: bold;
+  font-size: 20px;
+  
+  align-items: center;
+  padding-left:12px;
+  margin-left:12px;
+  margin:10px;
+  padding:20px;
+}
+/* Style the submit button with a specific background color etc */
+
+input[type=submit]{
+  background-color: grey;
+  color:black;
+  padding:9px 9px;
+  border-radius:2px;
+  cursor:pointer;
+  text-align: center;
+}
+
+/* When moving the mouse over the submit button, add a darker red color */
+
+
+input[type=submit]:hover{
+  background-color: darkred;
+}
+
+/* Add some padding around the form */
+
+
+.container{
+  border-radius: 10px;
+  padding:14px;
+  text-align: center;
+}
+
+.button{
+  background-color: blue;
+  color:black;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding:14px;
+  border-radius: 1px solid grey;
+}
+
+.contactus{
+  width:700px;
+  height: 700px;
+  background-color: antiquewhite;
+  color:black;
+  font-weight: bold;
+  font-size: 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+  padding: 18px;
+  margin:12px;
+  border:100px;
+  border-radius: 10px;
+  text-align: center;
+
+
+ 
+}
+
